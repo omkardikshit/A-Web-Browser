@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: url(#00aeff; -fx-border-color: #f1f1f1;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <top>
+      <HBox prefHeight="17.0" prefWidth="698.0" style="-fx-background-color: #f1f1f1;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="input" prefHeight="25.0" prefWidth="535.0" promptText="Search Something...">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextField>
+            <Button fx:id="search" mnemonicParsing="false" onAction="#Search" prefHeight="26.0" prefWidth="39.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="reload" mnemonicParsing="false" onAction="#Reload" prefHeight="26.0" prefWidth="47.0" />
+            <Button fx:id="back" mnemonicParsing="false" onAction="#Back" prefHeight="26.0" prefWidth="47.0" />
+            <Button fx:id="forward" mnemonicParsing="false" onAction="#Forward" prefHeight="26.0" prefWidth="47.0" />
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <WebView fx:id="webView" prefHeight="472.0" prefWidth="394.0" style="-fx-background-color: #f1f1f1;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
