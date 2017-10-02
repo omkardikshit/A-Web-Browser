@@ -1,5 +1,5 @@
 
-<center><img src="Browser/src/Icon.png" /></center>
+<center><img src="Icon.png" /></center>
 
 <h2>Overview</h2>
 
