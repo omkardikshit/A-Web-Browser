@@ -12,22 +12,31 @@
    <top>
       <HBox prefHeight="17.0" prefWidth="698.0" style="-fx-background-color: #f1f1f1;" BorderPane.alignment="CENTER">
          <children>
-            <TextField fx:id="input" prefHeight="25.0" prefWidth="535.0" promptText="Search Something...">
+            <TextField fx:id="input" prefHeight="35.0" prefWidth="535.0" promptText="Type Something Like Https://youtube.in">
                <font>
                   <Font name="Ubuntu" size="13.0" />
                </font>
                <HBox.margin>
-                  <Insets left="10.0" />
+                  <Insets />
                </HBox.margin>
             </TextField>
-            <Button fx:id="search" mnemonicParsing="false" onAction="#Search" prefHeight="26.0" prefWidth="39.0">
+            <Button fx:id="search" mnemonicParsing="false" onAction="#Search" prefHeight="25.0" prefWidth="25.0">
                <HBox.margin>
                   <Insets left="10.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="reload" mnemonicParsing="false" onAction="#Reload" prefHeight="26.0" prefWidth="47.0" />
-            <Button fx:id="back" mnemonicParsing="false" onAction="#Back" prefHeight="26.0" prefWidth="47.0" />
-            <Button fx:id="forward" mnemonicParsing="false" onAction="#Forward" prefHeight="26.0" prefWidth="47.0" />
+            <Button fx:id="reload" mnemonicParsing="false" onAction="#Reload" prefHeight="25.0" prefWidth="25.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></Button>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#Back" prefHeight="25.0" prefWidth="25.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></Button>
+            <Button fx:id="forward" mnemonicParsing="false" onAction="#Forward" prefHeight="25.0" prefWidth="25.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></Button>
          </children>
       </HBox>
    </top>
