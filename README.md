@@ -3,8 +3,6 @@
 
 <h2>Overview</h2>
 
-Mission Browser is An Open Source Program for People. This Browser is Made By JavaFX 
-
 <a href="Browser">Mission Browser</a>
 
 <h2>How To Do It?</h2>
@@ -19,6 +17,4 @@ Download:<br />
 After This Add This JavaFx Library In Your Project
 
 <hr />
-
-Let's Make The Browser Like Google Chrome, FireFox, Opera ;)
 
