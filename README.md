@@ -1,9 +1,6 @@
-
-<center><img src="Icon.png" /></center>
-
 <h2>Overview</h2>
 
-<a href="Browser">Mission Browser</a>
+<a href="Browser">Browser</a>
 
 <h2>How To Do It?</h2>
 
